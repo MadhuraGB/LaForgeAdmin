@@ -1,0 +1,68 @@
+    <html>
+    <head></head>
+    <body>
+    <div class="main-wrapper">
+        <div class="Madmin-acc">
+            <span class="Madmin-acc-text">Admin Account</span>
+            <div class="person-details">
+                    <form class="info-form" action="#">
+                            <div class="form-wrapper">
+                                <div class="form-wrapper">
+                                    <label for="fname">Full name</label>
+                                    <input class="a" type="text" id="fname" name="fname"><br>
+
+                                    <label for="email">Email</label>
+                                    <input class="b" type="email" id="email" name="email"><br>
+                                    
+                                    <label for="phoneNumber">Phone </label>
+                                    <input class="c" type="number" id="phoneNumber" name="phoneNumber"><br>
+                                    
+                                    <label for="org">Organization</label>
+                                    <input class="d" type="text" id="org" name="org"><br>
+
+                                    <label for="github">Github Handle</label>
+                                    <input class="e" type="text" id="github" name="github"><br>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <button class="org-btn back" >Back</button>
+                                <input class = "org-btn save" type="save" value="Save" >
+                            </div>
+                    </form>
+                    
+                    
+            </div>
+
+            <div class="person-details 2">
+                <form class="info-form" action="#">
+                    <div class="form-wrapper">
+                        <div class="form-wrapper">
+                            <label for="curPass">Current Password</label>
+                            <input class="a" type="text" id="curPass" name="curPass"><br>
+                            <label for="newPass">New Password</label>   
+                            <input class="b" type="newPass" id="newPass" name="newPass">
+                            <!-- <div class="submit2 "> -->
+                                <button class="org-btn SavNewPwd">Save New Password</button>   
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    
+            </form>
+            </div>  
+        </div>
+        
+        <div class="wrapper">
+            <div class="all-options">
+                <button class="org-btn">Home</button>  
+                <button class="org-btn">Account</button>
+                <button class="org-btn">Group</button>
+                <button class="org-btn">Users</button>
+            </div>
+            <div class="national-security">
+                <h2>National Cyber Security Event</h2>
+                <p>Date: {{currentDate | date:'MM / dd / yyyy'}} </p>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,187 @@
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: arial;
+}
+.Madmin-acc {
+    margin-left: 20px;
+    margin-top: 50px;
+    max-width: 80%;
+    background: rgba(130, 130, 130, 0.18);
+    padding: 30px;
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    display: inline-block;
+}
+.Madmin-acc .Madmin-acc-text {
+    text-align: center;
+    color: #f2c300;
+    margin-bottom: 30px;
+}
+.Madmin-acc .Madmin-acc-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Madmin-acc .org-btn {
+    margin-left: 30px;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 16px;
+    /* background-color: #f2c300; */
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+.Madmin-acc .org-btn:focus {
+    outline :none;
+}
+/* .Madmin-acc .org-btn:hover {
+    cursor: pointer;
+    background-color: #f2c300;
+    transition:0.2s;
+} */
+.person-details {
+    border-radius: 8px;
+    padding: 20px 10px;
+    margin: 40px 0;
+    background-color: #5384f7;
+    margin-bottom: 0;
+}
+.wrapper {
+    position: absolute;
+    top: 160px;
+    max-width: 25%;
+    display: inline-block;
+    margin: 0 20px;
+    background: rgba(130, 130, 130, 0.18);
+}
+
+.all-options {
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+.national-security {
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    text-align: center;
+    padding: 38px 0;
+    display: inline-block;
+    background: rgba(130, 130, 130, 0.18);
+}
+.national-security h2 {
+    font-weight: bold;
+    color: #f2c300;
+    font-size: 35px;
+
+}
+.national-security p {
+    font-weight: bold;
+    color: #f2c300;
+    font-size: 20px;
+    font-style: bold;
+}
+.all-options .org-btn{
+    width:100%;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 18px;
+    background-color: #5384f7;
+    border-radius: 30px;
+    margin: 20px 0;
+    font-weight: bold;
+    border: none;
+    
+}
+.all-options .org-btn:focus {
+    outline :none;
+}
+
+
+.form-wrapper {
+    margin: 4   0px 0px;
+}
+.info-form label {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.info-form input{
+    font-size: 16px;
+    background-color: rgba(154, 182, 247, 0.7);
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 4px 10px;
+    min-width: 220px;
+}
+
+.form-wraper{
+    display: inline-block;
+}
+.type-account {
+    display: block;
+}
+.access {
+    display: block;
+    margin-top: 20px;
+}
+/* Save New Password Button*/
+/* .submit2 .SavNewPwd{  
+
+    margin-left: 500px;
+    display: inline-block;
+    margin-top: -110px;
+    margin-bottom: -90px;
+} */
+.all-options .org-btn:hover {
+    cursor: pointer;
+    background-color: #f2c300;
+    transition: 0.2s;
+}
+
+/* Text Field */    
+.form-wrapper .a {margin-left: 70px;}
+.form-wrapper .c {margin-left: 92px;}
+.form-wrapper .b {margin-left: 105px;}
+.form-wrapper .d {margin-left: 45px;}
+.madamin .org-btn {
+    padding: 6px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #f2c300;
+    border-radius: 30px;
+    border: 1px solid #f2c300;
+
+}
+.sign-up .org-btn:focus {
+    outline :none;
+}
+.sign-up .org-btn:hover {
+    cursor: pointer;
+}
+.info-form .email-input {
+    margin-left: 65px;
+}
+.info-form .pwd-input {
+    margin-left: 40px;
+}
+.info-form input:focus {
+    outline :none;
+}
+
+.submit .save, .submit .back, .SavNewPwd {
+    color: #f2c300;
+    background-color: black;
+}
+.submit .save:hover, .submit .back:hover, .SavNewPwd:hover {
+    color: black;
+    background-color: #f2c300;
+    cursor: pointer;
+    transition: 0.2s;
+}
